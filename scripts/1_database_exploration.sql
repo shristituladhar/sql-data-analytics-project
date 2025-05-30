@@ -14,6 +14,11 @@ Output:
 - Table list for reference
 - Column metadata for each Gold table to understand fields, types, and names before analysis
 
+SQL Concepts/Functions Used:
+- INFORMATION_SCHEMA.TABLES
+- INFORMATION_SCHEMA.COLUMNS
+- ORDER BY
+
 ===========================================================
 */
 
