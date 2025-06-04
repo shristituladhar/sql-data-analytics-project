@@ -68,7 +68,7 @@ LEFT JOIN gold.fact_sales f
     ON f.product_key = p.product_key
 WHERE f.sales_amount IS NOT NULL
 GROUP BY p.product_name
-ORDER BY total_revenue ASC;
+ORDER BY total_revenue;
 GO
 
 -- Top 10 customers by revenue
@@ -92,7 +92,7 @@ SELECT TOP 3
     c.customer_key,
     c.first_name,
     c.last_name,
-    COUNT(f.order_number) AS orders_placed
+    COUNT(DISTINCT f.order_number) AS orders_placed
 FROM gold.fact_sales f
 LEFT JOIN gold.dim_customers c
     ON f.customer_key = c.customer_key
@@ -100,5 +100,5 @@ GROUP BY
     c.customer_key,
     c.first_name,
     c.last_name
-ORDER BY orders_placed ASC;
+ORDER BY orders_placed;
 GO
