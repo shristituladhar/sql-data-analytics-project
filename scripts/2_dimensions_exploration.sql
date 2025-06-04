@@ -1,6 +1,6 @@
 /*
 ===========================================================
-EDA Phase 02 – Dimensions Exploration
+EDA Phase 02 - Dimensions Exploration
 ===========================================================
 
 Purpose:
