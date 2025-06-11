@@ -1,6 +1,6 @@
 /*
 ===========================================================
-SQL Data Warehouse – EDA Layer Initialization Script
+SQL Data Warehouse - EDA Layer Initialization Script
 ===========================================================
 
 Purpose:
@@ -21,11 +21,11 @@ What It Does:
 Assumptions:
 - Already have a completed Data Warehouse with Gold views in the `DataWarehouse` database.
 - These views are clean and analytics-ready (no further transformation needed).
-- This EDA setup is read-optimized and CSV-export-ready.
+- This EDA setup is read-optimized and ready for CSV export.
 ===========================================================
 */
 
--- Use master context before database creation
+-- Use the master context before database creation
 USE master;
 GO
 
