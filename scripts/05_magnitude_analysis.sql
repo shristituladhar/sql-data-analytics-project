@@ -4,7 +4,7 @@ EDA Phase 05 - Magnitude Analysis
 ===========================================================
 
 Purpose:
-Analyze the size, volume, and revenue impact across various business dimensions such as geography, gender, product categories, and customers.
+Analyze the size, volume, and revenue impact across various business dimensions, including geography, gender, product categories, and customer segments.
 
 What It Does:
 - Counts total customers by country and gender
