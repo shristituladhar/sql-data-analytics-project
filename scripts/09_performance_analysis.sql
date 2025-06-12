@@ -53,7 +53,7 @@ SELECT
 	END AS avg_change,
 	-- Previous year's sales for the same product
 	LAG(current_sales) OVER (PARTITION BY product_name ORDER BY order_year) AS previous_year_sales,
-	-- Difference from pthe revious year
+	-- Difference from the previous year
 	current_sales - LAG(current_sales) OVER (PARTITION BY product_name ORDER BY order_year) AS diff_py_sales,
 	-- Year-over-year trend label
 	CASE 
