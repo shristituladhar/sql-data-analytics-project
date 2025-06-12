@@ -31,6 +31,12 @@ SQL Functions Used:
 ===============================================================================
 */
 
+-- Drop if it already exists
+IF OBJECT_ID('gold.report_customers', 'V') IS NOT NULL
+    DROP VIEW gold.report_customers;
+GO
+
+-- Create the product report view
 CREATE VIEW gold.report_customers AS
 
 -- Base CTE: Join core sales and customer data
