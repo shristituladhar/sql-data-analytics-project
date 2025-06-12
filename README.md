@@ -113,7 +113,8 @@ These SQL views (`report_customers`, `report_products`) are optimized for direct
 
 ## About This Project
 
-This project is inspired by the **"SQL Bootcamp" series by  [Data With Baraa](https://www.youtube.com/@DataWithBaraa)**. While the concepts and structure draw from the tutorials, all **implementation, file organization, analysis logic, and documentation** have been developed independently to deepen my understanding and create a polished, real-world portfolio project.
+This project is inspired by the "SQL Bootcamp" series by Data With Baraa.
+While the concepts and structure draw from the tutorials, all implementation, file organization, analysis logic, and documentation have been developed independently to deepen my understanding and create a polished, real-world portfolio project.
 
 ---
 
